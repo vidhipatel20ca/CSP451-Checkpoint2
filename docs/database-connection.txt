@@ -18,3 +18,4 @@ Testing Plan:
 - Test missing database host
 - Test successful connection message
 - Test failed connection messageEnvironment Variables: DB_HOST, DB_USER, DB_PASSWORD, DB_NAME.
+Review Notes: Do not commit real passwords or .env files.
