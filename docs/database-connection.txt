@@ -1,0 +1,21 @@
+Database Connection Feature
+
+This branch adds planning notes for database services.
+
+DB Services:
+- Read database host from environment variables
+- Read database username from environment variables
+- Read database password from environment variables
+- Connect safely without exposing secrets
+
+Connection Plan:
+- Create connect function
+- Add error handling
+- Return connection status
+- Keep .env file ignored
+
+Testing Plan:
+- Test missing database host
+- Test successful connection message
+- Test failed connection messageEnvironment Variables: DB_HOST, DB_USER, DB_PASSWORD, DB_NAME.
+Review Notes: Do not commit real passwords or .env files.
