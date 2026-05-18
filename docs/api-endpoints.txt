@@ -1,0 +1,21 @@
+API Endpoints Feature
+
+This branch adds planning notes for API services.
+
+API Services:
+- GET /api/health
+- POST /api/login
+- POST /api/contact
+- Validate required fields
+- Return JSON responses
+
+Validation Plan:
+- Check missing fields
+- Check wrong data type
+- Return proper error messages
+
+Testing Plan:
+- Test health endpoint
+- Test login endpoint
+- Test contact endpointResponse Format: All API responses should use JSON.
+Review Notes: Input validation must be added before accepting requests.
