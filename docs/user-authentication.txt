@@ -16,4 +16,4 @@ Frontend Services:
 Testing Plan:
 - Test empty username
 - Test empty password
-- Test valid username and password
+- Test valid username and passwordSecurity Notes: Passwords should never be saved in plain text.
