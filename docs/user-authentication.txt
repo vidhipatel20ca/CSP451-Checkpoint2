@@ -1,0 +1,20 @@
+User Authentication Feature
+
+This branch adds planning notes for the login feature.
+
+API Services:
+- Login validation
+- Username and password input checking
+- Error message for empty fields
+- Success message after valid login
+
+Frontend Services:
+- Login page form validation
+- Clear user feedback
+- Simple and readable messages
+
+Testing Plan:
+- Test empty username
+- Test empty password
+- Test valid username and passwordSecurity Notes: Passwords should never be saved in plain text.
+Review Notes: Login errors should be clear for users.
