@@ -17,4 +17,4 @@ Validation Plan:
 Testing Plan:
 - Test health endpoint
 - Test login endpoint
-- Test contact endpoint
+- Test contact endpointResponse Format: All API responses should use JSON.
